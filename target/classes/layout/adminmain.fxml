@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="713.0" style="-fx-background-color: FDDDC8;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.universite.controller.AdminMainController">
+    <children>
+        <Button fx:id="btngüncele" layoutX="32.0" layoutY="22.0" mnemonicParsing="false" onAction="#openUniversite" prefHeight="83.0" prefWidth="300.0" style="-fx-background-color: ffffff; -fx-background-radius: 25;" text="ÖZEL ÜNİVERSİTELER" textFill="#ff5900">
+            <font>
+                <Font name="System Bold Italic" size="24.0" />
+            </font>
+        </Button>
+        <Button fx:id="Giriye" layoutX="493.0" layoutY="339.0" mnemonicParsing="false" onAction="#openMain" prefHeight="39.0" prefWidth="74.0" style="-fx-background-radius: 35; -fx-background-color: f00000;" text="Çıkış Yap" />
+      <Button fx:id="btngüncele1" layoutX="32.0" layoutY="144.0" mnemonicParsing="false" onAction="#openYurtlar" prefHeight="83.0" prefWidth="300.0" style="-fx-background-color: ffffff; -fx-background-radius: 25;" text="ÖZEL YURTLAR" textFill="#ff5900">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btngüncele2" layoutX="380.0" layoutY="22.0" mnemonicParsing="false" onAction="#openDevletUniversite" prefHeight="83.0" prefWidth="300.0" style="-fx-background-color: ffffff; -fx-background-radius: 25;" text="DEVLET ÜNİVERSİTELERİ" textFill="#ff5900">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btngüncele21" layoutX="380.0" layoutY="144.0" mnemonicParsing="false" onAction="#openDevletYurtlar" prefHeight="83.0" prefWidth="300.0" style="-fx-background-color: ffffff; -fx-background-radius: 25;" text="DEVLET YURTLARI" textFill="#ff5900">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

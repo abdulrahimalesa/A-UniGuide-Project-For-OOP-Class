@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane fx:id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="772.0" style="-fx-background-color: #120a61;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.universite.controller.ozel.OzelEnIyiYurtController">
+    <children>
+        <GridPane fx:id="dataList" alignment="CENTER" layoutX="28.0" layoutY="26.0" prefHeight="302.0" prefWidth="730.0">
+        </GridPane>
+        <Button fx:id="butgiri" layoutX="346.0" layoutY="433.0" mnemonicParsing="false" onAction="#openMain" prefHeight="40.0" prefWidth="79.0" style="-fx-background-color: #ff0000; -fx-background-radius: 35;" text="Geri" textFill="WHITE" />
+    </children>
+</AnchorPane>

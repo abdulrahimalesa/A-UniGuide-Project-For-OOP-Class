@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="608.0" spacing="20.0" style="-fx-background-color: FDDDC8;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.universite.controller.devlet.DevletIletisimController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="45.0" prefWidth="608.0">
+         <children>
+            <Label text="İletişim Formu" textFill="#ff7700">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label text="Ad Soyad" textFill="#ff7700">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Label>
+      <TextField fx:id="adsoyad" promptText="Ad Soyad" />
+      <Label text="Telefon" textFill="#ff7700">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Label>
+      <TextField fx:id="telefon" promptText="Telefon" />
+      <Label text="Mesaj" textFill="#ff7700">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Label>
+      <TextArea fx:id="mesaj" prefHeight="121.0" prefWidth="608.0" promptText="Mesaj" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#gonder" prefHeight="26.0" prefWidth="139.0" style="-fx-background-color: #ffffff; -fx-background-radius: 25;" text="Gönder" textFill="#ff7700">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" onAction="#openDevlet" prefWidth="139.0" style="-fx-background-color: #ffffff; -fx-background-radius: 25;" text="Geri" textFill="#ff7700">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font></Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

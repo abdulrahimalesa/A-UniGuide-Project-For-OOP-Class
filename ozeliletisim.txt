@@ -1,0 +1,3 @@
+AdSoyad=testt
+Telefon=0537 993 8586
+mesaj=teswtt

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="666.0" style="-fx-background-color: FDDDC8;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.universite.controller.devlet.DevletUniversiteController">
+    <children>
+        <Button fx:id="butav" layoutX="228.0" layoutY="26.0" mnemonicParsing="false" onAction="#openAvantajlar" prefHeight="75.0" prefWidth="218.0" style="-fx-background-color: #0899ff; -fx-background-radius: 35;" text="Devlet Üniversitelerin Avantajları">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+        </Button>
+        <Button fx:id="buteni" layoutX="229.0" layoutY="123.0" mnemonicParsing="false" onAction="#openEnIyi" onDragDetected="#openEnIyi" prefHeight="75.0" prefWidth="218.0" style="-fx-background-color: #3ac713; -fx-background-radius: 35;" text="En iyi Devlet Üniversiteler">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+        </Button>
+        <Button fx:id="butyur" layoutX="229.0" layoutY="222.0" mnemonicParsing="false" onAction="#openEnIyiYurt" prefHeight="75.0" prefWidth="218.0" style="-fx-background-color: #ff7700; -fx-background-radius: 35;" text="Devlet Üniversitelerin yurtları">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+        </Button>
+        <Button fx:id="butile" layoutX="229.0" layoutY="322.0" mnemonicParsing="false" onAction="#openIletisim" prefHeight="75.0" prefWidth="218.0" style="-fx-background-color: #b3b4c4; -fx-background-radius: 35;" text="iletişime geçin">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+        </Button>
+        <ImageView fitHeight="40.0" fitWidth="54.0" layoutX="244.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../img/form.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="butgiri" layoutX="515.0" layoutY="377.0" mnemonicParsing="false" onAction="#openMain" prefHeight="40.0" prefWidth="79.0" style="-fx-background-color: #ff0000; -fx-background-radius: 35;" text="Geri" textFill="WHITE" />
+    </children>
+</AnchorPane>
